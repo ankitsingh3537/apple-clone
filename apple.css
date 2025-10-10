@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: aqua; */
+}
+#nav{
+    display:inline-flex;
+    width:82vw;
+    padding: 1.2vh  2vw  0vh 16vw;
+    background-color: black;
+    width:100vw ;
+    height:6.5vh;
+    /* position:fixed; */
+    z-index: 1;
+}
+#nav li{
+    padding: 0vh 0.4vw;
+    padding-top: 0vh;
+    margin:0;
+}
+#nav li a{
+    color:rgb(189, 189, 189);
+    text-decoration: none;
+    font-size:0.85vw;
+    margin: 1.15vw ;
+}
+/* #nav li a img {
+    padding-top: vh;
+} */
+#nav .a2:hover .a12{
+    display: block;
+    /* z-index: 200; */
+    z-index: 2;
+}
+#nav .a2 .a12 {
+    position:absolute;
+    width:10vw;
+    height:25vh;
+    margin-top: 1vh;
+    display: none;
+    background-color: rgb(77, 77, 77);
+    color: wheat;
+    font-size: 1.3vw;
+    list-style: none;
+    text-align: center;
+}
+/* #blank{
+    width: 100vw;
+    height:6.5vh;
+    background-color: white;
+} */
+#offer {
+    width: 100vw;
+    height: 6.6vh;
+    margin:0;
+    padding: 1.6vh  2vw  1.6vh 8vw;
+    color:beige;
+    text-align: center;
+    font-size: 1.4vw;
+    background-color: rgb(52, 60, 60);
+    
+}
+#offer a{
+    text-decoration: none;
+    color:coral;
+}
+#img1 {
+    position:relative;
+    display: flex;
+    /* width: 100vw; */
+}
+#img1 .iphone15{
+    position: absolute;
+    color: white;
+    top:8vh;
+    left:40vw;
+    width: 30vw;
+    height: 30vh;
+    z-index: 1;
+} 
+#img2 {
+    position:relative;
+    width: 100vw;
+}
+
+#img2 .iphone15{
+    position: absolute;
+    color:black;
+    top:10vh;
+    left:40vw;
+    width: 30vw;
+} 
+#img3 {
+    width: 100%;
+    position:relative;
+}
+#img3 .c {
+    margin:1vh 0.6vw;
+    width:48.2vw;
+}
+#img3 .iwatch{
+    position: absolute;
+    color:black;
+    top:10vh;
+    left:15vw;
+    width: auto;
+} 
+#img3 .iwatch2{
+    position: absolute;
+    color:white;
+    top:10vh;
+    left:65vw;
+    width: auto;
+} 
+#img4 {
+    width: 100vw;
+    position:relative;
+}
+#img4 .d {
+    margin:0.4vh 0.3vw;
+    width:48.8vw;
+}
+#img4 .mac{
+    position: absolute;
+    color:black;
+    top:10vh;
+    left:15vw;
+    width: auto;
+} 
+#img4 .ipadpro{
+    position: absolute;
+    color:white;
+    top:10vh;
+    left:65vw;
+    width: auto;
+} 
+#img5 {
+    width: 100vw;
+    position:relative;
+}
+#img5 .e {
+    margin:0.4vh 0.4vw;
+    width:48.8vw;
+}
+#img5 .tradein{
+    position: absolute;
+    color:black;
+    top:10vh;
+    left:15vw;
+    width: auto;
+} 
+#img5 .airpodspro{
+    position: absolute;
+    color:white;
+    top:10vh;
+    left:65vw;
+    width: auto;
+} 
+.savings {
+    padding: 3vh 18vw;
+    font-size: 1.02vw;
+    background-color: rgb(250, 249, 249);
+    color: rgb(116, 116, 116);
+}
+
+
+
+
+
