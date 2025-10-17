@@ -1,3 +1,3 @@
 # apple-clone
-![Alt text](Screenshot (2).png)
+![Alt text](img/HomePage.png)
 
