@@ -1,2 +1,2 @@
 # apple-clone
-![Alt text](Screenshot(2).png)
+!(Screenshot(2).png)
